@@ -1,0 +1,27 @@
+.item {
+    list-style: none;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 80%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    padding-right: 3rem;
+}
+
+.index {
+    /* background-color: rgb(212, 84, 84); */
+    background-color: rgb(253 138 54);
+
+    color: #fff;
+    height: 100%;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

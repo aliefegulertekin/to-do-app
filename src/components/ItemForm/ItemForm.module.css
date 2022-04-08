@@ -1,0 +1,59 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    height: 20rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.name-surname-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-section,
+.date-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 48%;
+}
+
+.label {
+    font-weight: bold;
+}
+.input {
+    height: 2rem;
+    margin-left: 1rem;
+    width: 13rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-left: 0.4rem;
+}
+
+.form button {
+    width: 6rem;
+    height: 2rem;
+    /* background-color: rgb(212, 84, 84); */
+  background-color: rgb(253 138 54);
+    
+
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.7s ease;
+}
+
+
+.form button:hover {
+    background-color: rgb(130, 47, 47);
+}

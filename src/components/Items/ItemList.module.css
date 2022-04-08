@@ -1,0 +1,11 @@
+.item-list {
+    margin-top: 2rem;
+    width: 40rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.416);
+}
