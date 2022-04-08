@@ -23,7 +23,6 @@ function App() {
 
   const removeItemHandler = (id) => {
     const filteredData = items.filter(item => item.id != id);
-    // items.map(i => console.log(i.id, id ))
     setItems(filteredData);
 
   }
